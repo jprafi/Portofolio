@@ -1,0 +1,52 @@
+body {
+    background-color: #084f1b;
+    color: blanchedalmond;
+    font-family: "Serif", Georgia, 'Times New Roman', Times, serif;
+}
+
+.biodata {
+    width: fit-content;
+    height: fit-content;
+    background-color: #013910;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 5px black;
+}
+
+.riwayat-pend {
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.sekolah:hover {
+    background-color: #013910;
+    box-shadow: 5px 5px 5px black;
+    transition: all 0.5s;
+    cursor: default;
+}
+
+.logo-sosmed {
+    background-color: #013910;
+    border: 4px solid grey;
+    border-radius: 10%;
+}
+
+
+.logo-sosmed:hover {
+    background-color: #013910;
+    box-shadow: 5px 5px 5px black;
+    transition: all 0.5s;
+    cursor: default;
+}
+
+.sosmed {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    height: fit-content;
+}
