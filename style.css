@@ -1,7 +1,7 @@
 body {
     background-color: #084f1b;
-    color: blanchedalmond;
-    font-family: "Serif", Georgia, 'Times New Roman', Times, serif;
+    color: blanchedalmond;                                           
+    font-family: 'Roboto Slab', serif;
 }
 
 .biodata {
@@ -10,7 +10,35 @@ body {
     background-color: #013910;
     margin-left: auto;
     margin-right: auto;
+}
+
+.biodata:hover {
     box-shadow: 10px 10px 5px black;
+    transition: all 0.5s;
+}
+
+.tentang-saya {
+    font-size: 25px;
+    background-color: #013910;
+    width: 550px;
+    height: fit-content;
+    margin-top: 50px;
+    margin-left: 75px;
+    font-size: 20px;
+    line-height: 25px;
+    border: 50px solid #013910;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 2%;
+    border-left: 100px solid grey;
+}
+
+.tentang-saya::first-letter {
+    font-size: 30px;
+}
+
+.tentang-saya:hover {
+    box-shadow: 5px 5px 5px black;
+    transition: all 0.5s;
 }
 
 .riwayat-pend {
@@ -19,14 +47,22 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .sekolah:hover {
     background-color: #013910;
     box-shadow: 5px 5px 5px black;
     transition: all 0.5s;
-    cursor: default;
+}
+
+.sosmed {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 200px;
 }
 
 .logo-sosmed {
@@ -40,13 +76,4 @@ body {
     background-color: #013910;
     box-shadow: 5px 5px 5px black;
     transition: all 0.5s;
-    cursor: default;
-}
-
-.sosmed {
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
-    height: fit-content;
 }
