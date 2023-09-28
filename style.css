@@ -20,10 +20,11 @@ body {
 .tentang-saya {
     font-size: 25px;
     background-color: #013910;
-    width: 700px;
+    width: fit-content;
     height: fit-content;
     margin-top: 50px;
     margin-left: 75px;
+    margin-right: 450px;
     font-size: 20px;
     line-height: 25px;
     border: 50px solid #013910;
@@ -44,10 +45,11 @@ body {
 .kelebihan {
     font-size: 25px;
     background-color: #013910;
-    width: 700px;
+    width: fit-content;
     height: fit-content;
     margin-top: 50px;
     margin-right: 75px;
+    margin-left: 450px;
     font-size: 20px;
     line-height: 25px;
     border: 50px solid #013910;
